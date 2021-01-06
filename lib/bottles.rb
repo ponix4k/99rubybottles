@@ -5,20 +5,25 @@ class Bottles
     end
 
     def verse (count)
-        return "99 bottles of beer on the wall, " +
-        "99 bottles of beer.\n" +
+        newCount = count - 1
+        return "#{count} bottles of beer on the wall, " +
+        "#{count} bottles of beer.\n" +
         "Take one down and pass it around, " +
-        "98 bottles of beer on the wall.\n"
+        "#{newCount} bottles of beer on the wall.\n"
     end
 
     def verses (count)
-      
+
     end
 
 end
 
 
-def the_first_verse
+def the_first_verse()
+    verse(99)
+end
 
+def  test_another_verse()
+    verse(3)
 end
 
