@@ -1,9 +1,10 @@
 gem 'minitest', '~> 5.4'
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative '../lib/bottles'
+require_relative '../lib/bottles' # file where logic is defined
 
 class BottlesTest < Minitest::Test
+
   def test_the_first_verse
     expected =
       "99 bottles of beer on the wall, " +
