@@ -30,8 +30,9 @@ class Bottles
         end
     end
 
-    def verses (count)
-
+    def verses (count1,count2)
+        count1 = verse(count1) + "\n" +
+        count2 = verse(count2)
     end
 
 end
@@ -51,5 +52,6 @@ end
 def test_verse_0()
 end
 
-
+def test_a_couple_verses()
+end
 
